@@ -2,7 +2,6 @@
 #include <time.h>
 /* more headers goes there */
 #include<stdio.h>
-/* betty style doc for function main goes there */
 
 /**
  * main - Generates a random number and checks sign
