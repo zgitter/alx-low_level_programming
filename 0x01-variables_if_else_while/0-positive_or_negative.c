@@ -4,9 +4,9 @@
 #include<stdio.h>
 
 /**
- * main - Generates a random number and checks sign
+ * main - Generates a rand and checks sign
  * @n: The generated number
- * Return: 0 if the function runs correctly or 1 if not
+ * Return: 0 if main runs right else 1
  */
 int main(void)
 {
