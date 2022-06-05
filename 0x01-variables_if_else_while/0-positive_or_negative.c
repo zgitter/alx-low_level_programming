@@ -5,7 +5,6 @@
 
 /**
  * main - Generates a rand and checks sign
- * @n: The generated number
  * Return: 0 if main runs right else 1
  */
 int main(void)
