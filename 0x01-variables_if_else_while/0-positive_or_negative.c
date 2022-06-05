@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - Generates a random number and checks and prints if it is positive, negative or zero
+ * main - Generates a random number and checks sign
  * @n: The generated number
  * Return: 0 if the function runs correctly or 1 if not
  */
