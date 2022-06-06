@@ -5,6 +5,7 @@
  * Return: returns 0 when runs right
  */
 int main(void)
-{       printf("with proper grammar%c but the outcome is a piece of art%c\n", 44, 44);
+{       int c = 44;
+	printf("with proper grammar%c but the outcome is a piece of art%c\n", c, c);
 	return (0);
 }
