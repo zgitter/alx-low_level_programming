@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-/*
- * main - Prints a string with puts
- *
+/**
+ * main - Description. main prints a string
  * Return: returns 0 when runs right
  */
 int main(void)
