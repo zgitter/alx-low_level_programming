@@ -5,7 +5,6 @@ int main(void)
 {
 	char chars[] = "_putchar\n";
 	size_t a_size = sizeof(chars)/sizeof(chars[0]);
-	//l =int(cast(l));
 	int l = a_size;
 	int n;
 	for (n = 0; n < l; n++)
