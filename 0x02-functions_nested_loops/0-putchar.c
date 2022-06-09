@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	char c = 10;
 	char chars[] = "_putchar";
 	size_t a_size = sizeof(chars) / sizeof(chars[0]);
 	int l = a_size;
@@ -15,6 +14,5 @@ int main(void)
 
 	for (n = 0; n < l; n++)
 		_putchar(chars[n]);
-	_putchar(c);
 	return (0);
 }
