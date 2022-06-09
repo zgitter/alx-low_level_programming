@@ -4,6 +4,7 @@
  * _isupper - checks if char is upper case
  *
  * Return: 1 if upper, else 0
+ * 
  * @c: is an integer input parameter
  */
 int _isupper(int c)
@@ -13,14 +14,15 @@ int _isupper(int c)
 
 	i = 65;
 	t = 0;
-
 	while (i < 91)
 		if (c == i)
 		{
 			t = 1;
 			break;
 		}
-		else 
+		else
+		{
 			i++;
+		}
 	return (t);
 }
