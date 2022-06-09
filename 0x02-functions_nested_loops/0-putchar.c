@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stddef.h>
+#include <stdio.h>
 /**
  * main - Calls __putchar to print string
  *
@@ -7,14 +6,6 @@
  */
 int main(void)
 {
-	char c = 10;
-	char chars[] = "_putchar";
-	size_t a_size = sizeof(chars) / sizeof(chars[0]);
-	int l = a_size;
-	int n;
-
-	for (n = 0; n < l; n++)
-		_putchar(chars[n]);
-	_putchar(c);
+	printf("_putchar\n");
 	return (0);
 }
