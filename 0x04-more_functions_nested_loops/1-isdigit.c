@@ -20,7 +20,7 @@ int _isdigit(int c)
 			t = 1;
 			break;
 		}
-		else 
+		else
 			i++;
 	return (t);
 }
