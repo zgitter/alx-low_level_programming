@@ -4,7 +4,7 @@
  * _isupper - checks if char is upper case
  *
  * Return: 1 if upper, else 0
- * @c is an integer input parameter
+ * @c: is an integer input parameter
  */
 int _isupper(int c)
 {
