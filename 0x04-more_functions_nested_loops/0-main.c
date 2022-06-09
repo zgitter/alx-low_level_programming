@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * main - calls _isupper to check if char U
  *
- * Return: Always 0.
+ * Return: 0 if only success
  */
 int main(void)
 {
