@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * mul - takes two intergers and returns their product
- * @a: first integer 
+ * @a: first integer
  * @b: second integer
  * Return: return the axb result
  */
