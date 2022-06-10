@@ -18,13 +18,13 @@ void more_numbers(void)
 				c = i;
 			}
 			else
-			{	
+			{
 				c = k;
 				_putchar(c);
 				c = i - 10;
 			}
 			_putchar(c);
-				
+
 		}
 		c = 10;
 		_putchar(c);
