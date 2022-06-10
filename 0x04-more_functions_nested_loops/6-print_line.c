@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - prints a line of length n
+ * @n: length indicator integer
  */
 void print_line(int n)
 {
