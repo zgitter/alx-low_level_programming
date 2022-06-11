@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-	int n;
 	char c;
 
-	for (n = 97; n < 123; n++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		c = 'n'
 		putchar(c);
 	}
-	putchar('10');
+	c = 10;
+	putchar(c);
 	return (0);
 }
