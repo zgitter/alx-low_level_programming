@@ -1,31 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include<stdio.h>
 /**
- * main - This function generates PRN and tells about
+ * main - This main generates a - z
  * Return: returns 0 if main  runs right otherwise 1
  */
 int main(void)
 {
 	int n;
-	int ld;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	ld = n % 10;
-	if (ld > 5)
+	for (n = 97; n < 123; n++)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
+		c = 'n'
+		putchar(c);
 	}
-	else if ((ld < 6) && (ld != 0))
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is 0\n", n, ld);
-	}
+	putchar('10');
 	return (0);
 }
