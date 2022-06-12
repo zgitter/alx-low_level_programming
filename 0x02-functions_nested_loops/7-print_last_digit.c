@@ -1,5 +1,5 @@
 #include "main.h"
-#include <math.h>
+#include <stdlib.h>
 /**
  * print_last_digit - prints the last digit of any digit num
  * @n: the input parameters whose last digit is to be found
