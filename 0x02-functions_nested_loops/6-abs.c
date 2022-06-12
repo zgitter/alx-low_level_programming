@@ -2,6 +2,7 @@
 /**
  * _abs - informs the sign of a number
  * @n: the number whose abs value gets returned
+ * Return: returns the ans of @n
  */
 int _abs(int n)
 {
@@ -11,7 +12,7 @@ int _abs(int n)
 	}
 	else
 	{
-		n = - 1 * n;
+		n = -n;
 		return (n);
 	}
 }
