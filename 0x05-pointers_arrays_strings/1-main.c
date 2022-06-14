@@ -8,13 +8,20 @@
  */
 int main(void)
 {
-    int a;
-    int b;
+    int inty1;
+    int inty2;
+    char chary1;
+    char chary2;
+    char *s;
 
-    a = 98;
-    b = 42;
-    printf("a=%d, b=%d\n", a, b);
-    swap_int(&a, &b);
-    printf("a=%d, b=%d\n", a, b);
+    s = "My School";
+    chary1 = s[2];
+    chary2 = s[3];
+
+    inty1 = _putchar(chary1);
+    inty2 = _putchar(chary2);
+
+    printf("The expected vals: chary1 (%c) and chary2 (%c) then inty1 (%d) and inty2 (%d)\n", chary1, chary2, inty1, inty2);
+
     return (0);
 }

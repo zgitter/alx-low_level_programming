@@ -35,10 +35,5 @@ void puts_half(char *str)
                 j++;
 		}
 	}
-		while (*(str + n + j + 1) != 0)
-		{
-		_putchar(*(str + j + n + 1));
-		j++;
-		}
 	_putchar(10);
 }
