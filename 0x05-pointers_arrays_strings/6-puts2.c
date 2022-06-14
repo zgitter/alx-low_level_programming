@@ -15,7 +15,10 @@ void puts2(char *str)
 	}
 	for (j = 0; j < i; j++)
 	{
+		if (2 * j < i)
+		{
 		_putchar(*(str + 2*j));
-	}
+		}
+	}	
 	_putchar(10);
 }
