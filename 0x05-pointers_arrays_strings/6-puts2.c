@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_rev - takes the address of a string and prints it in rev
- * @s: points to the string to be reverse printed
+ *puts2 - takes the address of a string and prints it in rev
+ * @str: points to the string to be reverse printed
  */
 void puts2(char *str)
 {
@@ -17,7 +17,7 @@ void puts2(char *str)
 	{
 		if (2 * j < i)
 		{
-		_putchar(*(str + 2*j));
+		_putchar(*(str + 2 * j));
 		}
 	}	
 	_putchar(10);
