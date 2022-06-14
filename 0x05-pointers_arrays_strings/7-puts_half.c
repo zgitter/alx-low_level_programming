@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * puts_half - takes the address of a string and prints its last half
- * @str: points to the string to be printed
+ * puts_half - takes the address of a string and half prints it
+ * @str: points to the string to be half printed
  */
 void puts_half(char *str)
 {
@@ -18,22 +18,21 @@ void puts_half(char *str)
 	if (i % 2 == 0)
 	{
 		n = i / 2;
-
 		while (*(str + n + j) != 0)
 		{
-                _putchar(*(str + j + n));
-                j++;
+			_putchar(*(str + n + j));
+			j++;
 		}
 	}
 	else
 	{
 		n = (i - 1) / 2;
-
 		while (*(str + n + j + 1) != 0)
 		{
-                _putchar(*(str + j + n + 1));
-                j++;
+			_putchar(*(str + n + j + 1));
+			j++;
 		}
 	}
 	_putchar(10);
+
 }
