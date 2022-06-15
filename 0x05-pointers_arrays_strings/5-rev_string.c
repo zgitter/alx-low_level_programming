@@ -9,6 +9,7 @@ void rev_string(char *s)
 	int i;
 	int j;
 	char swp;
+	int l;
 
 	i = 0;
 	j = 0;
@@ -16,12 +17,15 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	while (j < i)
+	
+	l = i;
+
+	while (j < l)
 	{	
 		swp = s[j];
-		*(s + j) = *(s + i - j - 1);
-		*(s + i - j - 1);
+		s[j] = s[l - j - 1];
+		s[l - j - 1] = swp;
 		j++;
 	}
-	printf("i (%d) and j (%d) plus swp (%c)\n", i, j, swp);
+	/*printf("i (%d) and j (%d) plus swp (%c)\n", i, j, swp);*/
 }
