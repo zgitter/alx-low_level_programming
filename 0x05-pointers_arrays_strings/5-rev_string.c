@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * rev_string - takes the address of a string and reverses it
  * @s: points to the string to be reversed
@@ -20,7 +19,7 @@ void rev_string(char *s)
 
 	l = i;
 
-	while (j < l)
+	while (j < l / 2)
 	{
 		swp = s[j];
 		s[j] = s[l - j - 1];
