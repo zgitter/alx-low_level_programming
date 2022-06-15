@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - sums all multiples of 3 or 5 under 1024 exclusive
- * Return - returns 0 when main runs right
+ * Return: - returns 0 when main runs right
  */
 int main(void)
 {
