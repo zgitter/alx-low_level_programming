@@ -15,7 +15,7 @@ int main(void)
 	i = 3;
 	printf("%ld%c%c", fp1, 44, 32);
 	printf("%ld%c%c", fp2, 44, 32);
-	while (i <= 50)
+	while (i <= 49)
 	{
 		fn = fp1 + fp2;
 		printf("%ld%c%c", fn, 44, 32);
@@ -23,7 +23,8 @@ int main(void)
 		fp2 = fn;
 		i++;
 	}
+	fn = fp1 + fp2;
 	/*printf("%d\n", sum);*/
-	printf("\n");
+	printf("%ld\n", fn);
 	return (0);
 }
