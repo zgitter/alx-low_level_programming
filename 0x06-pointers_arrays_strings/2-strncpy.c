@@ -3,7 +3,7 @@
  * _strncpy - concatnates by taking just n bytes
  * @src: the source of string
  * @dest: the destination of the string
- * @n: the n bytes to append
+ * @n: the n bytes to copy
  * Return: returns the pointer for dest
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -16,5 +16,6 @@ char *_strncpy(char *dest, char *src, int n)
 		*(dest + j) = *(src + j);
 		j++;
 	}
+	dest[j] = '\0';
 	return (dest);
 }
