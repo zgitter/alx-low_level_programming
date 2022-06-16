@@ -2,7 +2,7 @@
 /**
  * _strcmp - concatnates strings
  * @s1: the first  string
- * @s1: the second string
+ * @s2: the second string
  * Return: returns the difference int
  */
 int _strcmp(char *s1, char *s2)
