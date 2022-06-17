@@ -6,7 +6,7 @@
  * @n: the n bytes to append
  * Return: returns the pointer for dest
  */
-char *_strncat(char *dest, char *src,int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
@@ -22,6 +22,6 @@ char *_strncat(char *dest, char *src,int n)
 		*(dest + i) = *(src + j);
 		i++;
 		j++;
-	}	
+	}
 	return (dest);
 }
