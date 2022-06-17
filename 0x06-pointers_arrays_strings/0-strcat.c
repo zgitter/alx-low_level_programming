@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * _strcat - concatnates strings
- * @src: the source of string
+ * @src: pointer for apppending str
  * @dest: the destination of the string
  * Return: returns the pointer for dest
  */
 char *_strcat(char *dest, char *src)
 {
 	int i;
-	int j
+	int j;
 
 	j = 0;
 	i = 0;
