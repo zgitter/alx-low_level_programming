@@ -12,7 +12,7 @@ char *leet(char *s)
 	char s1[] = "aeotl";
 	char s2[] = "AEOTL";
 	char s3[] = "43071";
-	
+
 	i = 0;
 	while (s[i] != '\0')
 	{
